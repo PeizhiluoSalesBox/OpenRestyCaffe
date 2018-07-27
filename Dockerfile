@@ -1,6 +1,6 @@
 #FROM caffe:gpu
 #MAINTAINER geyijun<geyijun@xiongmaitech.com>
-FROM index.docker.io//bvlc/caffe:gpu
+FROM index.docker.io/bvlc/caffe:gpu
 MAINTAINER peizhiluo007<25159673@qq.com>
 
 #°²×°supervisor
