@@ -1,7 +1,7 @@
-FROM caffe:gpu
-#FROM daocloud.io/geyijun/caffe:v0.01
-#MAINTAINER peizhiluo007<25159673@qq.com>
-MAINTAINER geyijun<geyijun@xiongmaitech.com>
+#FROM caffe:gpu
+#MAINTAINER geyijun<geyijun@xiongmaitech.com>
+FROM daocloud.io/bvlc/caffe:gpu
+MAINTAINER peizhiluo007<25159673@qq.com>
 
 #°²×°supervisor
 RUN apt-get update && apt-get install -y --no-install-recommends \
